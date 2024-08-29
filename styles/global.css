@@ -32,6 +32,7 @@ body{
 
 .flex{
     background-color: var(--White);
+    position: relative;
     border-radius: 10px;
     border: none;
     display: flex;
@@ -39,4 +40,8 @@ body{
     gap: 40px;
     width: 730px;
     height: 280px;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
 }
+
+
+

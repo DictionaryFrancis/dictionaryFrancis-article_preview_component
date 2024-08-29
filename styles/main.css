@@ -78,6 +78,7 @@ main .frame-flex>div:last-child {
     height: 32px;
     background-color: var(--Light-Grayish-Blue);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .share-icon {
@@ -86,3 +87,16 @@ main .frame-flex>div:last-child {
     height: 13px;
 }
 
+main .frame-flex>div:last-child:hover {
+    background-color: var(--Desaturated-Dark-Blue) ;
+}
+
+main .frame-flex>div:last-child:hover svg path {
+    fill: white;
+    stroke: white; 
+}
+
+svg path:hover {
+    fill: white;
+    stroke: white;
+}

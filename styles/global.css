@@ -12,13 +12,31 @@
     --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
     --Grayish-Blue: hsl(212, 23%, 69%);
     --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    --White: #ffffff;
 
-    --text-h1: 700 20px/28px/0.25px var(--Font-family);
-    --text-p: 500 13px/20px/0.12px var(--Font-family);
-    --text-h2: 700 13px/28px/0.25px var(--Font-family);
+    --text-h1: bold 20px var(--Font-family);
+    --text-p: 500 13px var(--Font-family);
+    --text-h2: bold  13px var(--Font-family);
 
+}
+
+body{
+    background-color: var(--Light-Grayish-Blue);
 }
 
 .container{
     padding: 260px 355px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    background-color: var(--White);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 730px;
+    height: 280px;
 }

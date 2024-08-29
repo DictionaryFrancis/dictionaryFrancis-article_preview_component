@@ -1,0 +1,88 @@
+main {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 216px;
+    width: 365px;
+}
+
+main div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main h1 {
+    font: var(--text-h1);
+    letter-spacing: 0.25px;
+    line-height: 28px;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+main p {
+    font: var(--text-p);
+    letter-spacing: 0.12px;
+
+    line-height: 20px;
+    color: var(--Desaturated-Dark-Blue);
+}
+
+main .frame {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    height: 40px;
+}
+
+
+main .profile-img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+main .frame-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 161px;
+    align-items: center;
+}
+
+main .frame-flex h2 {
+    font: var(--text-h2);
+    letter-spacing: 0.12px;
+    line-height: 28px;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+main .frame-flex p {
+    font: var(--text-p);
+    letter-spacing: 0.12px;
+    color: var(--Grayish-Blue);
+}
+
+main .frame-flex>div:first-child {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .frame-flex>div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: var(--Light-Grayish-Blue);
+    border-radius: 50%;
+}
+
+.share-icon {
+
+    width: 15px;
+    height: 13px;
+}
+
